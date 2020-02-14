@@ -5,8 +5,10 @@ A lightweight [OpenSSH][openssh] [Docker image][dockerhub_project] built atop [A
 The root password is "root". SSH host keys (RSA, DSA, ECDSA, and ED25519) are auto-generated when the container is started, unless already present.
 
 #### OpenSSL Version Tags
+*Use the specific version tag you're intending to use.*
 
-- `7.9-r1`, `7.9`, `latest` (OpenSSH_7.9, OpenSSL 1.1.1b, [Dockerfile](https://github.com/sickp/docker-alpine-sshd/tree/master/versions/7.9-r1/Dockerfile))
+- `8.1`, `8.1`, `8.1` (OpenSSH_8.1, OpenSSL 1.1.1b, [Dockerfile](https://github.com/owenwarner/docker-alpine-sshd/tree/master/versions/8.1/Dockerfile))
+- `7.9-r1`, `7.9` (OpenSSH_7.9, OpenSSL 1.1.1b, [Dockerfile](https://github.com/sickp/docker-alpine-sshd/tree/master/versions/7.9-r1/Dockerfile))
 - `7.5-r2` (OpenSSH_7.5p1-hpn14v4, LibreSSL 2.6.3, [Dockerfile](https://github.com/sickp/docker-alpine-sshd/tree/master/versions/7.5-r2/Dockerfile))
 - `7.5` (OpenSSH_7.5p1-hpn14v4, LibreSSL 2.5.4, [Dockerfile](https://github.com/sickp/docker-alpine-sshd/tree/master/versions/7.5/Dockerfile))
 - `7.4` (OpenSSH_7.4p1, LibreSSL 2.4.4, [Dockerfile](https://github.com/sickp/docker-alpine-sshd/tree/master/versions/7.4/Dockerfile))
